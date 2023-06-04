@@ -1,1 +1,0 @@
-# ankipro-color-selector
