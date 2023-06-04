@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "AnkiPro Color Picker",
+	"version": "1.0",
+	"description": "Extension to add colour selection for flashcards decks at AnkiPro.net",
+	"icons": {
+		"128": "img/icon.png"
+	},
+	"content_scripts":
+    [
+        {
+            "matches":["https://ankipro.net/decks*"],
+            "js":["js/jquery.js", "js/script.js"],
+            "css": ["css/styles.css"],
+            "run_at": "document_end"
+        }
+    ],
+	"permissions": [
+		"storage"
+	]
+
+}

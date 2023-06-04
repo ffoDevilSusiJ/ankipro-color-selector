@@ -1,0 +1,33 @@
+#root > div > div > div > div > div > div:nth-child(2) > div > div > div > div > div > div:not(:nth-child(1)) > div > div > div:nth-child(2) {
+	right: 60px;
+
+}
+
+#root > div > div > div > div > div > div:nth-child(2) > div > div > div > div > div > div:not(:nth-child(1)) > div > div > div > div:nth-child(2) > div:nth-child(1)  {
+	padding-right: 0;
+}
+#root > div > div > div > div > div > div:nth-child(2) > div > div > div > div > div > div:not(:nth-child(1)) > div > div > div > div:nth-child(2) img {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+.background-color-picker {
+	width: 30px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.199);
+	border: 0.5px solid black;
+	border-radius: 5px;
+	margin-right: 120px;
+}
+.text-color-picker {
+	width: 30px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.199);
+	border: 0.5px solid black;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+/* #root > div > div > div > div > div > div:nth-child(2) > div > div > div > div > div > div:not(:nth-child(1)) > div > div > div > div:nth-child(2) > div:nth-child(1) {
+	background-color: red;
+} */
